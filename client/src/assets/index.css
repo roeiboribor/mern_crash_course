@@ -228,3 +228,15 @@ ul.notes p {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}

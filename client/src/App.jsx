@@ -11,6 +11,7 @@ import Footer from './layouts/Footer';
 
 import Home from './pages/Home';
 import About from './pages/About';
+import AddNote from './features/notes/AddNote';
 
 // 🏁🏁🏁 END COMPONENTS
 
@@ -22,6 +23,7 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
+					<Route path="/add-note" element={<AddNote />} />
 				</Routes>
 				<Footer />
 			</Router>
